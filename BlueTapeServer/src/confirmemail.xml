@@ -1,0 +1,9 @@
+<FromEmail>bluetape.usermanagement@gmail.com</FromEmail>
+<EmailPassword>xxxxxxxxx</EmailPassword>
+<Subject>Confirmation Email from BlueTape</Subject>
+<Content>
+This is the email to confirm your email address
+this is the second line.
+this is the third line.
+</Content>
+<ActivationURL>https://localhost:8443/servlet/httplogin?Request=SubmitConfirmCode</ActivationURL>

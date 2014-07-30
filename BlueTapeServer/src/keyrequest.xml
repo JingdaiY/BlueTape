@@ -1,0 +1,74 @@
+<request name="AddUser" action="Add" auth="AUTH_ALL">
+	<identifier type="string">Email_address</identifier>
+	<key type="enc">User_password</key>
+	<key type="string">FirstName</key>
+	<key type="string">LastName</key>
+	<key type="string">Gender</key>
+	<key type="string">Department</key>
+	<key type="time">Birthday</key>
+	<file type="jpg#png#pdf">ProfilePicture</file>
+	<file type="jpg#png#pdf">FavoritePicture</file>
+</request>
+<request name="UpdateUser" action="Update" auth="true">
+	<identifier type="string">Email_address</identifier>
+	<key type="enc">User_password</key>
+	<key type="string">FirstName</key>
+	<key type="string">LastName</key>
+	<key type="string">Gender</key>
+	<key type="string">Department</key>
+	<key type="time">Birthday</key>
+	<file type="jpg#png#pdf">ProfilePicture</file>
+	<file type="jpg#png#pdf">FavoritePicture</file>
+</request>
+<request name="DeleteUser" action="Delete" auth="true">
+	<identifier type="string">Email_address</identifier>
+</request>
+<request name="SearchUser" action="Search" auth="false">
+	<identifier type="string">Email_address</identifier>
+	<key type="enc">User_password</key>
+	<key type="string">FirstName</key>
+	<key type="string">LastName</key>
+	<key type="string">Gender</key>
+	<key type="string">Department</key>
+	<key type="time">Birthday</key>
+</request>
+<request name="GetPath" action="Search" auth="true">
+	<identifier type="string">Email_address</identifier>
+	<identifier type="enc">User_password</identifier>
+	<key type="file">ProfilePicture</key>
+</request>
+<request name="GetProfilePicture" action="GetFile" auth="true">
+	<identifier type="string">Email_address</identifier>
+	<identifier type="enc">User_password</identifier>
+	<key type="file">ProfilePicture</key>
+</request>
+<request name="AddUserData" action="Push" auth="true">
+	<identifier type="string">Email_address</identifier>
+	<key type="enc">User_password</key>
+	<key type="string">FirstName</key>
+	<key type="string">LastName</key>
+	<key type="string">Gender</key>
+	<key type="string">Department</key>
+	<key type="time">Birthday</key>
+	<file type="jpg#png#pdf">ProfilePicture</file>
+	<file type="jpg#png#pdf">FavoritePicture</file>
+</request>
+<request name="DelUserData" action="Pull" auth="true">
+	<identifier type="string">Email_address</identifier>
+	<key type="enc">User_password</key>
+	<key type="string">FirstName</key>
+	<key type="string">LastName</key>
+	<key type="string">Gender</key>
+	<key type="string">Department</key>
+	<key type="time">Birthday</key>
+	<key type="file">ProfilePicture</key>
+	<key type="file">FavoritePicture</key>
+</request>
+<request name="SearchBirthday" action="Search" auth="true">
+	<identifier type="string">Email_address</identifier>
+	<identifier type="time">Birthday</identifier>
+	<key type="string">FirstName</key>
+	<key type="string">LastName</key>
+	<key type="string">Gender</key>
+	<key type="string">Department</key>
+</request>

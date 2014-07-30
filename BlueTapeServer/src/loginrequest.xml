@@ -1,0 +1,14 @@
+<request name="UserLogin" action="Login">
+	<key type="time">LoginTime</key>
+</request>
+<request name="UserLogout" action="Logout">
+</request>
+<request name="RequestConfirmEmail" action="RequestConfirmEmail">
+</request>
+<request name="Registration" action="Register">
+	<key type="time">Birthday</key>
+</request>
+<request name="SubmitConfirmCode" action="ConfirmCode">
+</request>
+<request name="ChangePassword" action="ChangePassword">
+</request>
