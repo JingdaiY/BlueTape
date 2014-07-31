@@ -14,7 +14,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-
 import javax.servlet.*;
 import javax.servlet.http.*;
 
@@ -25,7 +24,7 @@ public class httpserver extends HttpServlet
 	//private QueryAgent FlyerAgent;
 	private ArrayList<String> RequestList;
 	private static Logger logger=LogManager.getLogger("httpserver");
-	
+    
 	public httpserver()
 		{
 		String readline;
