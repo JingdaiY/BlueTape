@@ -35,7 +35,6 @@ public class ConfirmEmailGenerator
 		int readContentTextMode=0;
 		int readActivationURLMode=0;
 		
-                
 		try
 			{
 			FileInputStream fis=new FileInputStream(new File(inFilename+".xml"));
