@@ -9,6 +9,7 @@
 	<file type="jpg#png#pdf">ProfilePicture</file>
 	<file type="jpg#png#pdf">FavoritePicture</file>
 </request>
+
 <request name="UpdateUser" action="Update" auth="true">
 	<identifier type="string">Email_address</identifier>
 	<key type="enc">User_password</key>
