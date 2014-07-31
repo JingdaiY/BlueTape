@@ -16,3 +16,6 @@ public class TypedString
 		this("", "String");
 		}
 	}
+
+
+
