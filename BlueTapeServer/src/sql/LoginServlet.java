@@ -49,7 +49,6 @@ public class LoginServlet extends HttpServlet
 			this.collectionName="DefaultAccountCollection";
 			}
 		else
-                
 			{
 			this.collectionName=tempParam;
 			}
