@@ -12,7 +12,6 @@ import com.mongodb.BasicDBObject;
 
 public class Tools
 	{
-            
 	protected static final int APPEND_ACT=1;
 	protected static final int REMOVE_ACT=2;
 	private static final String [] blockedKeys={"UserId", "Password", "sessionId", "sessionTime", "ConfirmCode", "AuthName"};
