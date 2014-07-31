@@ -23,8 +23,7 @@ public class xml
 			for (int i = 1; i <= colCount; i++)
 				{
 				int type = rsmd.getColumnType(i); // get column type
-				buffer.append("\t\t<col name=\"" + rsmd.getColumnName(i)
-						+ "\">");
+				buffer.append("\t\t<col name=\"" + rsmd.getColumnName(i)+ "\">");
 				buffer.append(getvalue(rs, i, type));
 				buffer.append("</col>\n");
 				}
