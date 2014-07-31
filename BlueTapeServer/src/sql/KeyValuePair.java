@@ -19,6 +19,7 @@ public class KeyValuePair
 		this.key=inKey;
 		this.value=inValue;
 		}
+                
 	
 	public KeyValuePair(String inKey, TypedString inTypedStr)
 		{
