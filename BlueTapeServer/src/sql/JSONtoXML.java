@@ -16,6 +16,7 @@ public class JSONtoXML
 		StringWriter sw=new StringWriter();
 		Stack<String> stk=new Stack<String>();
 		char readchar;
+                
 		try
 			{
 			for(i=0;i<inJSON.length();i++)
