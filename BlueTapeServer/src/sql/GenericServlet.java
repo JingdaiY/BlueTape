@@ -69,6 +69,7 @@ public class GenericServlet extends HttpServlet
 			(new File(this.collectionName)).mkdir();
 			}
 		}
+                
 
 	public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
 		{
