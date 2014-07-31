@@ -111,19 +111,18 @@ public class Whitelist
 
 	public static void main(String[] args) throws SQLException
 		{
-
 		// int r2= WUpdateData("1","ID_W","3");
 		// int r1= WAddData("5","6","2");
 		// int r4= WAddData("6","1");
-		int r3 = WDeleteData("12");
-		int r4 = WDeleteData("13");
-		int r1 = WAddData("6", "10");
-		int r = WAddData("6", "11");
-		int f = WAddData("6", "12");
-		int h = WAddData("6", "13");
-		int i = WAddData("6", "14");
-		int j = WAddData("6", "15");
-		int k = WAddData("6", "16");
+		//int r3 = WDeleteData("12");
+		//int r4 = WDeleteData("13");
+		//int r1 = WAddData("6", "10");
+		//int r = WAddData("6", "11");
+		//int f = WAddData("6", "12");
+		//int h = WAddData("6", "13");
+		//int i = WAddData("6", "14");
+		//int j = WAddData("6", "15");
+		//int k = WAddData("6", "16");
 
 		}
 	}
