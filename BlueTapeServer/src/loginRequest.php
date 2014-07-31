@@ -28,7 +28,6 @@ $url='http://imbrium.seas.wustl.edu:28000/servlet/accountManagement.LoginServlet
 $data= array(
 	'user' => $username,
 	'pass' => $password);
-
 $httpResponse=do_post($url, $data); #Contains response with error codes and the token if successful
 echo $httpResponse;
 
