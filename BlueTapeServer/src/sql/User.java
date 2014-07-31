@@ -50,7 +50,6 @@ public class User
 			}
 		}
 
-                
 	public static int dataExecuteUpdate(String syntax)
 		{
 		// this method is created for searching,updating and inserting the data.
