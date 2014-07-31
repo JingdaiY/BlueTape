@@ -21,7 +21,6 @@ function do_post($url, $data)
   return $response;
   }
 }
-
 #################
 #sends username and encrypted password to server to check for information in database
 $url='http://imbrium.seas.wustl.edu:28000/servlet/accountManagement.RegisterServlet';
