@@ -9,8 +9,7 @@ mysql_select_db('min_bluetape_db', $connection) or die(mysql_error());
 	// var_dump($row); 
 	// echo "<br>";
 // }
-$q = "UPDATE preferences SET is_activated='true',confirmation_id=NULL WHERE email='".$_GET['email'].
-		"' AND confirmation_id=".$_GET['id'].";";
+$q = "UPDATE preferences SET is_activated='true',confirmation_id=NULL WHERE email='".$_GET['email']."' AND confirmation_id=".$_GET['id'].";";
 $result = mysql_query($q, $connection);
 if ($result) header("Location: http://bluetape.seas.wustl.edu/home1.php");
 else echo "Fail to confirm email address. Please check with account administrator.";
