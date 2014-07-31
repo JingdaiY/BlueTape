@@ -11,10 +11,6 @@ import javax.servlet.http.*;
 @SuppressWarnings("serial")
 public class Flyer_httpserver extends HttpServlet
 	{
-
-	/**
-	 * 
-	 */
 	public void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException
 		{
