@@ -42,7 +42,6 @@ public class Flyer
 			return null;
 			}
 		}
-                
 
 	public static int fDataExecuteUpdate(String syntax)
 		{
