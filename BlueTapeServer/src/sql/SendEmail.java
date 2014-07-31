@@ -22,7 +22,6 @@ public class SendEmail
 		properties.setProperty("mail.smtp.auth", "true");
 		properties.setProperty("mail.smtp.starttls.enable", "true");
 		properties.setProperty("mail.smtp.port", "587");
-		
 		Session session=Session.getInstance(properties, new SendEmail.myAuthenticator(from, inPassword));
 		
 		try
